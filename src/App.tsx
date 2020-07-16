@@ -42,7 +42,9 @@ const App: React.FC = () => {
       setResponses(5)
   }
 
+
   const playAgain = () => {
+    
     setScore(0)
     setResponses(0)
   }
